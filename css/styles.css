@@ -5,7 +5,7 @@
 
 body {
   background: #fcc;
-} 
+}
 
 
 
@@ -14,10 +14,10 @@ body {
 @media screen and (min-width: 500px) {
 
   /* applies to screens wider than 499px */
-  
+
   body {
-    background: #cfc;
-  } 
+    background: #d1d1e0;
+  }
 }
 
 
@@ -30,5 +30,5 @@ body {
 
   body {
     background: #ccf;
-  } 
+  }
 }
