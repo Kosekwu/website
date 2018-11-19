@@ -6,7 +6,27 @@
 body {
   background: #fcc;
 }
-
+header{
+  text-align: center;
+  padding: 10vh 0%;
+  background: url("../images/womaninwhite.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+.menu{
+  background: #333;
+  color: #ffffff;
+  line-height: 2em;
+}
+nav{
+  justify-content: center;
+  background: #333;
+  display: none;
+}
+nav a{
+  color: #ffffff;
+  padding: 1.25em;
+}
 
 
 /* TABLET STYLES */
@@ -16,8 +36,23 @@ body {
   /* applies to screens wider than 499px */
 
   body {
-    background: #d1d1e0;
+    background: #cfc;
   }
+  nav{
+  display: flex;
+  justify-content: center;
+  background: transparent;
+  position: sticky;
+}
+nav a{
+  color: #ffffff;
+  padding: 1.25em;
+  background: transparent;
+}
+.menu{
+  display:none;
+}
+
 }
 
 
@@ -31,4 +66,5 @@ body {
   body {
     background: #ccf;
   }
+
 }

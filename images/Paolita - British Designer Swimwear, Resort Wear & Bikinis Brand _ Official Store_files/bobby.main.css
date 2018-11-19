@@ -1,0 +1,132 @@
+
+.postimg{
+	padding: 100% 0 0;
+	position: relative;
+	overflow: hidden;
+    margin: 0 0 1.5em;
+}
+
+.postimg__img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #eee;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+.pageheaderimg{
+	padding: 66% 0 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.pageheaderimg__img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #eee;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+@media only screen and (min-width:550px){
+	.pageheaderimg{ padding: 50% 0 0; }
+}
+
+
+/*  ==========================================================================
+    share icons
+    ========================================================================== */
+
+.shareicons{
+}
+
+
+.shareiconslist{
+}
+
+.shareiconslist li{ margin: 0; display: inline-block; vertical-align: top; }
+
+.sharelink{
+	display: inline-block;
+	height: 3em;
+	background: #f1f1f1;
+	line-height: 3em;
+	margin: 0;
+	color: #fff;
+}
+
+.sharelink:after { content: ""; height: 0; visibility: hidden; clear: both; display: block; }
+
+.pageheader .sharelink{ margin: 0; }
+
+.sharelink--facebook{
+	background: #3b5998;
+}
+
+.sharelink--twitter{
+	background: #00aced;
+}
+
+.shareicon{
+	width: 3em;
+	text-align: center;
+	display: block;
+	float: left;
+	color: #fff;
+	padding: 0;
+	border: none;
+}
+
+.shareicon .fa{ display: inline-block; padding: 0; }
+
+.sharetext{
+	color: #fff;
+	overflow: hidden;
+	font-size: 12px;
+	display: block;
+	float: left;
+	text-align: right;
+	width: 0;
+	-webkit-transition: all .15s ease-in-out 0s;
+	   -moz-transition: all .15s ease-in-out 0s;
+	        transition: all .15s ease-in-out 0s;
+	text-align: left;
+}
+
+.sharelink:hover .sharetext{
+	width: 45px;
+}
+
+/*
+// pageheader
+*/
+
+.pageheader .shareicons{
+	margin: 1em 0 0;
+}
+
+.pageheader.hero .sharelink{ background: #fff; color: #111; }
+
+.pageheader.hero .sharelink .shareicon,
+.pageheader.hero .sharelink .sharetext{ color: #111; }
+
+/*
+.pageheader.hero .sharelink .shareicon .fa-facebook{ color: #3b5998; }
+.pageheader.hero .sharelink .shareicon .fa-twitter{ color: #00aced; } */
+
+@media only screen and (min-width:500px){
+	.shareicons--fixed .sharelink{ top: 90px; }
+}
+
+@media only screen and (min-width:1000px){
+	.shareicons--fixed .sharelink{ top: 125px; }
+}
