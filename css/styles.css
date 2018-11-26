@@ -40,9 +40,34 @@ nav a{
     background: url("../images/womaninwhite.jpg") no-repeat center center;
            background-size: cover;
   }
+  .menu{
+    background: #333;
+    color: #ffffff;
+    line-height: 2em;
+    font-family: sans-serif;
+  }
+  #menu-toggle{
+      color: #ffffff;
+      font-size: x-large;
+  }
+  nav{
+    justify-content: center;
+    background: #333;
+    display: none;
+  }
+  nav a{
+    color: #ffffff;
+    padding: 1.25em;
+      font-family: Arial, Helvetica, sans-serif;
+  }
   #slogan{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     font-size: 15px;
+    font-weight: bold;
+  }
+  #logo{
+    image: url("../images/transparentresize.jpg")
+    width: 200px;
   }
 }
 
@@ -80,6 +105,9 @@ nav a{
 }
 .menu{
   display:none;
+}
+#menu-nav{
+  font-size: x-large;
 }
 
 }
