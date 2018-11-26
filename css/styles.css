@@ -4,13 +4,12 @@
 /* and above unless overwritten below */
 
 body {
-  background: #fcc;
+  background: url("../images/womaninwhite.jpg") no-repeat center center;
+         background-size: cover;
 }
 header{
   text-align: center;
   padding: 10vh 70%;
-  background: url("../images/womaninwhite.jpg") no-repeat center center;
-  background-size: cover;
   color: white;
 }
 .menu{
@@ -28,14 +27,24 @@ nav a{
   padding: 1.25em;
     font-family: Arial, Helvetica, sans-serif;
 }
-.logo{
+#logo{
   image: url("../images/transparentresize.jpg")
 }
 #slogan{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
+/*MOBILE -300*/
+@media screen and (min-width: 300px) {
+  body {
+    background: url("../images/womaninwhite.jpg") no-repeat center center;
+           background-size: cover;
+  }
+  #slogan{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+}
 
 /* TABLET STYLES */
 
@@ -44,13 +53,13 @@ nav a{
   /* applies to screens wider than 499px */
 
   body {
-    background: #cfc;
+    background: url("../images/womaninwhite.jpg") no-repeat center center;
+           background-size: cover;
   }
   header{
     text-align: center;
     padding: 10vh 0%;
-    background: url("../images/womaninwhite.jpg") no-repeat center center;
-    background-size: cover;
+
     color: white;
   }
   nav{
@@ -64,13 +73,16 @@ nav a{
   padding: 1.25em;
   background: transparent;
 }
+#slogan{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
 .menu{
   display:none;
 }
 
 }
-
-
 
 /* DESKTOP STYLES */
 
@@ -79,7 +91,8 @@ nav a{
   /* applies to screens wider than 999px */
 
   body {
-    background: #ccf;
+    background: url("../images/womaninwhite.jpg") no-repeat center center;
+           background-size: cover;
   }
 
 }
