@@ -6,6 +6,8 @@
 body {/*kose was here*/
   background: url("../images/blackmaneditf.png") no-repeat center center;
   position: relative;
+}
+.wrapper{
   overflow-x:hidden;
   overflow-y: hidden;
 }
