@@ -1,11 +1,11 @@
 /* MOBILE AND GLOBAL STYLES */
 
-/* applies to screens smaller than 500px 0 -499px (first breakpoint) */
+/* applies to screens smaller than 500px (first breakpoint) */
 /* and above unless overwritten below */
 
 body {
-  background: url("../images/womaninwhite.jpg") no-repeat center center;
-         background-size: cover;
+  background: url("../images/blackman.jpg") no-repeat center center;
+
 }
 header{
   text-align: center;
@@ -13,35 +13,30 @@ header{
   color: white;
 }
 .menu{
-  background: #333;
   color: #ffffff;
   line-height: 2em;
 }
 nav{
   justify-content: center;
-  background: #333;
+  background: #A8A8A8;
   display: none;
 }
 nav a{
   color: #ffffff;
   padding: 1.25em;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight:
 }
-
 .menu-toggle{
   display: flex;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: larger;
+
 }
-#logo{//for iphones and small screens
-  image: url("../images/transparentresize.jpg");
-  position: absolute;
-  width: 250px;
-  left: 10px;
-  top: -80px;
+
+img{
+  background-image: url("images/LaMarcheTransparent.png");
+  width:500px;
 }
 #slogan{
-  grid-area: slogan;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
 }
@@ -50,7 +45,7 @@ nav a{
 
 @media screen and (min-width: 500px) {
 
-  /* applies to screens wider than 499px - 1000 */
+  /* applies to screens wider than 499px */
 
   body {
     background: url("../images/womaninwhite.jpg") no-repeat center center;
@@ -85,13 +80,6 @@ nav a{
 #menu-nav{
   font-size: x-large;
 }
-#logo{//for iphones and small screens
-  image: url("../images/transparentresize.jpg");
-  position: absolute;
-  width: 250px;
-  left: 10px;
-  top: -80px;
-}
 
 }
 
@@ -104,6 +92,9 @@ nav a{
   body {
     background: url("../images/womaninwhite.jpg") no-repeat center center;
            background-size: cover;
+  }
+  img{
+    background-image: url("images/LaMarcheTransparent.png");
   }
 
 }
