@@ -3,7 +3,7 @@
 /* applies to screens smaller than 500px (first breakpoint) */
 /* and above unless overwritten below */
 
-body {
+body {/*kose was here*/
   background: url("../images/blackmaneditf.png") no-repeat center center;
   position: relative;
   overflow-x:hidden;
