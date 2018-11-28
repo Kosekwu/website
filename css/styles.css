@@ -7,7 +7,7 @@ body {
   background: url("../images/blackmaneditf.jpg") no-repeat center center;
   position: relative;
   overflow-x:hidden;
-  overflow-y: hidden;
+  overflow-y: hidden; 
 }
 header{
   text-align: center;
