@@ -4,7 +4,7 @@
 /* and above unless overwritten below */
 
 body {/*kose was here*/
-  background: url("../images/blackmaneditf.png") no-repeat center center;
+  background: url("../images/bmedit4.jpg") no-repeat center center;
   position: relative;
 }
 .wrapper{
@@ -48,7 +48,11 @@ nav a{
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
 }
-
+@media only screen and (max-width: 500px){
+  #logo{
+    display:none;
+  }
+}
 /* TABLET STYLES */
 
 @media screen and (min-width: 500px) {
