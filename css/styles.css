@@ -5,7 +5,7 @@
 
 body {
   background: url("../images/blackman.jpg") no-repeat center center;
-
+  position: relative;
 }
 header{
   text-align: center;
