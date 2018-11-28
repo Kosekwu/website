@@ -6,6 +6,8 @@
 body {
   background: url("../images/blackmann.jpg") no-repeat center center;
   position: relative;
+  overflow-x:hidden;
+  overflow-y: hidden;
 }
 header{
   text-align: center;
