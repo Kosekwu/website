@@ -14,7 +14,7 @@ header{
 }
 .menu{
   background: #333;
-  color: #ffffff;   
+  color: #ffffff;
   line-height: 2em;
 }
 nav{
@@ -32,49 +32,14 @@ nav a{
 }
 #logo{
   image: url("../images/transparentresize.jpg");
-    width: 500px;
+  position: absolute;
+width: 250px;
+left: 10px;
+top: -80px;
 }
 #slogan{
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
-}
-
-/*MOBILE -300*/
-@media screen and (min-width: 300px) {
-  body {
-    background: url("../images/womaninwhite.jpg") no-repeat center center;
-           background-size: cover;
-  }
-  .menu{
-    color: #ffffff;
-    line-height: 2em;
-    font-family: sans-serif;
-  }
-  #menu-toggle{
-      color: #ffffff;
-      font-size: x-large;
-      float: right;
-  }
-  nav{
-    justify-content: center;
-    background: #333;
-    display: none;
-  }
-  nav a{
-    color: #ffffff;
-    padding: 1.25em;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  #slogan{
-    font-family: sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    display: none;
-  }
-  #logo{
-    image: url("../images/transparentresize.jpg");
-
-  }
 }
 
 /* TABLET STYLES */
